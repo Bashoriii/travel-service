@@ -69,6 +69,16 @@ $bg-dua: #f6f4f5;
 
   .icon-star-full {
     margin-right: 0.3rem;
+    color: #edbf66;
+  }
+}
+
+.location {
+  font-weight: 400;
+  color: #c5c3c4;
+
+  span {
+    font-size: 1.2rem;
   }
 }
 
@@ -76,4 +86,21 @@ $bg-dua: #f6f4f5;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -1rem;
+}
+
+.btn-book {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 800;
+  padding: 0.3rem 0.9rem;
+  border-radius: 7px;
+  color: $primary;
+  border: 1px solid #dddddd;
+  background-color: $bg-dua;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #cbcbcb;
+  }
 }

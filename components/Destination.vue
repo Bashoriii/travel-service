@@ -12,7 +12,9 @@
         <img src="../assets/img/lake.jpg" alt="" />
         <div class="card-text">
           <h4>Serayu Lake <span>$20</span></h4>
-          <p><span class="icon-location2"></span> Indonesia, Dieng</p>
+          <div class="location">
+            <p><span class="icon-location2"></span> Indonesia, Dieng</p>
+          </div>
           <div class="booking">
             <p>
               <span class="icon-star-full"></span>
@@ -23,15 +25,16 @@
             </p>
             <button class="btn-book">Book</button>
           </div>
-          https://dribbble.com/shots/20472206-Travelling-Services-Landing-Page-Website
         </div>
       </div>
 
       <div class="card mid">
-        <img src="../assets/img/lake.jpg" alt="" />
+        <img src="../assets/img/tent.jpg" alt="" />
         <div class="card-text">
-          <h4>Serayu Lake <span>$20</span></h4>
-          <p><span class="icon-location2"></span> Indonesia, Dieng</p>
+          <h4>Curug Hiji Camp <span>$142</span></h4>
+          <div class="location">
+            <p><span class="icon-location2"></span> Indonesia, Bogor</p>
+          </div>
           <div class="booking">
             <p>
               <span class="icon-star-full"></span>
@@ -46,10 +49,12 @@
       </div>
 
       <div class="card">
-        <img src="../assets/img/lake.jpg" alt="" />
+        <img src="../assets/img/hill.jpg" alt="" />
         <div class="card-text">
-          <h4>Serayu Lake <span>$20</span></h4>
-          <p><span class="icon-location2"></span> Indonesia, Dieng</p>
+          <h4>Bintang Hill <span>$80</span></h4>
+          <div class="location">
+            <p><span class="icon-location2"></span> Indonesia, Bandung</p>
+          </div>
           <div class="booking">
             <p>
               <span class="icon-star-full"></span>
