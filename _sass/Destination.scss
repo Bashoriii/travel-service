@@ -1,0 +1,79 @@
+$bg-dua: #f6f4f5;
+
+.container-2 {
+  background-color: $bg-dua;
+}
+
+.des-title {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 5rem;
+
+  h3 {
+    width: 40%;
+    color: $primary;
+    font-size: 2.3rem;
+  }
+}
+
+.arrows {
+  span {
+    color: #cbcbcb;
+    margin: 0 0.5rem;
+    font-size: 2.5rem;
+
+    &:hover {
+      color: $secondary;
+      cursor: pointer;
+    }
+  }
+}
+
+.des-cards {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4rem auto;
+}
+
+.card {
+  width: 280px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 2.5rem;
+
+  img {
+    width: 100%;
+    height: 210px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.card-text {
+  font-size: 0.9rem;
+
+  h4 {
+    color: $primary;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon-star-full {
+    margin-right: 0.3rem;
+  }
+}
+
+.booking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
